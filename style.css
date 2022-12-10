@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@500&display=swap');
+
+.navbar{
+    background: #EDEDED; 
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar.scrolled{
+    background-color: #adacac;
+    transition: background 500ms;
+}
+
+body{
+    background: #EDEDED;
+    padding-top: 70px;
+}
+
+#section-banner{
+	background: url("assets/homeimages/topographybg.png") ;
+	background-size: cover;
+}
+.banner-content{
+	padding: 200px 0px 40px 0px;
+}
+
+.shortHR{
+    width: 7.5em;
+    margin: auto;
+}
+
+.footercomponents a{
+    color: black;
+}
+
+.footertextright{
+    text-align: right;
+}
+
+h1{
+    font-family: Merriweather, sans-serif;
+    font-size: 5em;
+}
+
+h2{
+    font-family: Merriweather, sans-serif;
+    font-size: 3.5em;
+}
+
+h3{
+    font-family: Merriweather, sans-serif;
+    font-size: 2.5em;
+}
+
+h4{
+    font-family: Merriweather, sans-serif;
+    font-size: 2em;
+}
+
+h6{
+    font-family: Roboto, sans-serif;
+    font-size: 1.5em;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+}
+
+.homefooter{
+    background: #adacac;
+}
+
+.aboutaccordion{
+    font-family: Roboto, sans-serif;
+    font-size: 2vh;
+}
+
+.aboutaccordiondescription{
+    font-family: Roboto, sans-serif;
+    font-size: 1.75vh;
+}
+
+.aboutlist{
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+}
+
+.grades{
+    color: goldenrod;
+}
+
+.greylabel{
+    color: gray;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* Scroll up */
+.scrollup{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: #ffc107;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    color: black;
+}
+
+
+ul {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+.bloganchor{
+    font-family: Roboto, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* Timeline */
+.timelineData{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.timelineSubtitle{
+    display: inline-block;
+}
+
+.timelineCalendar{
+    color: #adacac;
+}
+
+.timelineRounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #ffc107;
+    border-radius: 50%;
+}
+
+.timelineline{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #ffc107;
+    transform: translate(6px, -7px)
+}
+
+.timeline [data-content]{
+    display: none;
+}
+
+.timelineActive[data-content]{
+    display: block;
+}
+
+/* Scroll bar */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #787878 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #787878;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
